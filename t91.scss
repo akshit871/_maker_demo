@@ -1,0 +1,79 @@
+import '../../modules';
+
+
+ .vMnU_1_BUTTON_TOP_LEVEL {
+
+   &.font {
+     color:#d80e0e;
+     font-family:consolas;
+     font-size:45px;
+     font-weight:980;
+   }
+
+   &.size {
+     width:198px;
+     height:230px;
+     min-width:0px;
+     min-height:0px;
+     max-width:0px;
+     max-height:0px;
+     overflow:px;
+     a:[object Object];
+   }
+
+ .KfHi_2_BUTTON_SPAN {
+
+   &.layout {
+     display:flex;
+     direction:row-reverse;
+     wrap:wrap-reverse;
+     justify-content:space-between;
+     align-content:end;
+   }
+
+   &.margin {
+     margin-top:5px;
+     margin-right:13px;
+     margin-bottom:10px;
+     margin-left:9px;
+   }
+
+   &.padding {
+     padding-top:4px;
+     padding-right:4px;
+     padding-bottom:3px;
+     padding-left:4px;
+   }
+
+   &.border {
+     border-style:inset;
+     border-width:11px;
+     border-color:#8fe60e;
+     border-radius:9px;
+   }
+
+   &.size {
+     width:7px;
+     height:8px;
+     min_width:2px;
+     min_height:2px;
+     max_width:20px;
+     max_height:20px;
+     overflow:hiddenpx;
+   }
+
+   &.background {
+     background-color:#3a19e0;
+     background-image:;
+     background-repeat:no-repeat;
+     background-position:top;
+     opacity:0.39;
+   }
+
+   &.font {
+     color:#e41919;
+     font-family:helvetica;
+     font-size:22px;
+     font-weight:980;
+   }
+

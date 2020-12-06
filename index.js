@@ -15,6 +15,15 @@ const obj2 = {
       "max-width": "0px",
       "max-height": "0px",
       overflow: "px",
+      a:{
+        c:{
+          d:{
+            e:{
+              d:123,
+            }
+          }
+        }
+      }
     },
   },
   KfHi_2_BUTTON_SPAN: {
@@ -88,7 +97,7 @@ function prettyPrint(data) {
         if (Object.keys(val).length > 0) {
           output += `,\n${tabbify(tab)} "${key}": ${traverse(val, tab + 2)}${
             i === length - 1 ? "" : ",\n"
-          }`;
+            }`;
           output += close;
         } else {
           output += `,\n${tabbify(tab)} "${key}": {}`;
@@ -130,7 +139,7 @@ function prettyPrint(data) {
         if (val != "" && val != 0) output += `${tabbify(tab)}${key}: ${val}\n`;
       } else if (typeof val === "object") {
         if (Object.keys(val).length > 0) {
-          output += `\n${tabbify(tab)} &.${key} {\n${traverse(
+          output += `${tabbify(tab)} &.${key} {${traverse(
             val,
             tab + 5
           )}${tabbify(tab)}}${i === length - 1 ? "" : "\n"}`;
@@ -139,6 +148,7 @@ function prettyPrint(data) {
         }
       }
     });
+
 
     return output;
   };
